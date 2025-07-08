@@ -1,10 +1,13 @@
-version 0.2
+version: 0.2
 
 phases:
   install:
     runtime-versions:
       nodejs: 18
+    commands:
+      - echo "Installing dependencies (if any)..."
+      - npm install || true
   build:
     commands:
-      - echo Building app....
+      - echo "Running awsTestingApp build step..."
       - node index.js
