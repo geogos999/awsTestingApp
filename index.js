@@ -1,1 +1,1 @@
-console.log("Hello from awsTestingApp")
+console.log("Pipeline test")
