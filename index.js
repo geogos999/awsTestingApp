@@ -1,1 +1,1 @@
-console.log("Pipeline test")
+console.log("Pipeline trigger test")
