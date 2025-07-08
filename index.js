@@ -1,1 +1,1 @@
-console.log("Pipeline trigger test after successful deployment");
+console.log("Pipeline trigger test after successful deployment - test");
